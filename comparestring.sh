@@ -5,11 +5,11 @@ read string2
 
 if [ $string1 \> $string2 ]
 then
-	echo  "String 1 greater than string 2"
+	echo  "$string1 greater than $string2"
 elif [ $string1 \< $string2  ]
 then
-	echo  "String 1 is smaller than String 2"
+	echo  "$string1 is smaller than $string2"
 else 
-	echo "String 1 is equal to string 2"
+	echo "$string1 is equal to $string2"
 fi
 
